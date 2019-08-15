@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	$q = " insert into ajero (username,password) values ('$username','$password') ";
 
 	$query = mysqli_query($con,$q);
-	header('location:index.html');
+	header('location:repair.php');
 }
 
 
